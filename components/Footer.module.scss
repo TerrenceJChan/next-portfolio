@@ -11,16 +11,21 @@
     font-size: 1rem;
 } */
 .footerBox {
+    position: absolute;
+    bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 2px solid color.$highlight-sub;
     color: color.$highlight-sub;
-    z-index: 1;
+    background-color: color.$black-1;
+    z-index: 0;
 }
 
 .footerFlex {
     display: flex;
     justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 .footerFlex span a {
