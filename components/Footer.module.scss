@@ -1,0 +1,33 @@
+@use '../styles/colors' as color;
+@use '../styles/transitions' as transition;
+/* .footerContent ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.footerContent li {
+    display: inline;
+    font-size: 1rem;
+} */
+.footerBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid color.$highlight-sub;
+    color: color.$highlight-sub;
+    z-index: 1;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footerFlex span a {
+    transition: 0.2s ease,padding 0.8s linear;;
+}
+
+.footerFlex span a:hover {
+    cursor: pointer;
+    color: color.$highlight-main;
+}
