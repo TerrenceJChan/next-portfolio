@@ -1,0 +1,15 @@
+@use '../styles/colors' as color;
+
+.title {
+    font-size: 5vw;
+    color: color.$white-1;
+}
+
+.profile {
+    border-color: red;
+    border-width: 2px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}

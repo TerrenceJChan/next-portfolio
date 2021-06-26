@@ -2,6 +2,24 @@
     text-align: center;
 }
 
+.centerScreen {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
 .fullWidth {
     width: 100%;
+}
+
+.fullHeight {
+    height: 100vh;
+    z-index: -2;
+}
+
+.col2Flex {
+    display: flex;
+    justify-content: space-evenly;
 }

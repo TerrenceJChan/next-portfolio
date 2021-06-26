@@ -10,8 +10,18 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
-  background-color: color.$black-1;
   color: color.$white-2;
+}
+
+h1,
+h2 {
+  color: color.$highlight-sub;
+  z-index: 1;
+}
+
+p {
+  color: color.$white-2;
+  z-index: 1;
 }
 
 a {
@@ -21,7 +31,8 @@ a {
 
 canvas {
   position: fixed;
-  width: 100vh;
-  height: 100vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: color.$black-1;
   z-index: -1;
 }
