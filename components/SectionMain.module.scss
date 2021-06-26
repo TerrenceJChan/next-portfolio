@@ -1,13 +1,24 @@
+@use '../styles/breakpoints' as breakpoint;
 @use '../styles/colors' as color;
 
 .title {
-    font-size: 5vw;
+    @include breakpoint.font-size(breakpoint.$title-font-sizes);
     color: color.$white-1;
 }
 
+.subtitle {
+    @include breakpoint.font-size(breakpoint.$subtitle-font-sizes);
+}
+
+.mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
 .profile {
-    border-color: red;
-    border-width: 2px;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;

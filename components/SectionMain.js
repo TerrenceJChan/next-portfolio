@@ -8,14 +8,19 @@ export default function SectionMain() {
             <section className={`${utilStyles.centerScreen} ${utilStyles.col2Flex}`}>
                 <div>
                     <h1 className={styles.title}>Terrence</h1>
+                    <p className={styles.subtitle}>Front-End</p>
+                    <p className={`${styles.subtitle} ${styles.mirror}`}>Back-End</p>
                 </div>
                 <div>
-                    <Image
-                        src='/images/terrence-800x800.png'
-                        className={styles.profile}
-                        height={400}
-                        width={400}
-                        alt='Terrence Chan' />
+                    <div className={utilStyles.quarterWidth}>
+                        <Image
+                            src='/images/terrence-800x800-2.png'
+                            className={styles.profile}
+                            width={400}
+                            height={400}
+                            layout='responsive'
+                            alt='Terrence Chan' />
+                    </div>
                 </div>
             </section>
         </div>

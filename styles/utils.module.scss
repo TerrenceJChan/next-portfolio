@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.quarterWidth {
+    width: 25vw;
+}
+
 .fullHeight {
     height: 100vh;
     z-index: -2;
@@ -22,4 +26,5 @@
 .col2Flex {
     display: flex;
     justify-content: space-evenly;
-}
+  }
+  
