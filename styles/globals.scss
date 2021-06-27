@@ -15,7 +15,6 @@ body {
 
 h1,
 h2 {
-  color: color.$highlight-sub;
   z-index: 1;
 }
 
@@ -29,11 +28,29 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: color.$highlight-sub; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+hr {
+  color: color.$highlight-sub;
+  opacity: 20%;
+}
+
 canvas {
   position: fixed;
   width: 100vw;
   height: 100vh;
   background-color: color.$black-1;
-  opacity: 20%;
+  opacity: 40%;
   z-index: -1;
 }

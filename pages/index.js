@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 import SectionMain from '../components/SectionMain';
+import SectionBio from '../components/SectionBio';
 import Background from '../components/Background';
 import Footer from '../components/Footer';
 
@@ -16,8 +16,9 @@ export default function Home() {
             </Head>
             <main>
                 <SectionMain />
+                <SectionBio />
+                {/* <Footer /> */}
             </main>
-            <Footer />
         </div>
     );
 }

@@ -1,0 +1,9 @@
+@use '../styles/colors.scss' as color;
+
+@use './Font.module.scss';
+
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: color.$highlight-sub;
+}

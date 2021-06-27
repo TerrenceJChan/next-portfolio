@@ -6,10 +6,10 @@ export default function SectionMain() {
     return (
         <div className={utilStyles.fullHeight}>
             <section className={`${utilStyles.centerScreen} ${utilStyles.col2Flex}`}>
-                <div>
-                    <h1 className={styles.title}>Terrence</h1>
-                    <p className={styles.subtitle}>Front-End</p>
-                    <p className={`${styles.subtitle} ${styles.mirror}`}>Back-End</p>
+                <div className={styles.flexCenter}>
+                    <h1 className={styles.profileTitle}>Terrence</h1>
+                    <span className={styles.subtitle}>Full-Stack Developer</span>
+                    {/* <span className={`${styles.subtitle} ${styles.mirror}`}>Back-End</span> */}
                 </div>
                 <div>
                     <div className={utilStyles.quarterWidth}>

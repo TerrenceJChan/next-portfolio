@@ -21,10 +21,10 @@ $title-font-sizes: (
 );
 
 $subtitle-font-sizes: (
-    "phone": 50px,
-    "tablet": 100px,
-    "laptop": 125px,
-    "desktop": 150px,
+    "phone": 30px,
+    "tablet": 50px,
+    "laptop": 75px,
+    "desktop": 100px,
 );
 
 @mixin font-size($fs-map, $fs-breakpoints: $breakpoints) {
@@ -43,3 +43,27 @@ $subtitle-font-sizes: (
         }
     }
 }
+
+// $title-margin-sizes: (
+//     "phone": 30px 0px 20px 0px,
+//     "tablet": 50px 0px 35px 0px,
+//     "laptop": 100px 0px 75px 0px,
+//     "desktop": 125px 0px 100px 0px,
+// );
+
+// @mixin margin($fs-map, $fs-breakpoints: $breakpoints) {
+//     @each $fs-breakpoint, $fs-font-size in $fs-map {
+//         @if $fs-breakpoint == null {
+//             font-size: $fs-font-size;
+//         } @else {
+//             // If $fs-font-size is a key that exists in
+//             // $fs-breakpoints, use the value
+//             @if map-has-key($fs-breakpoints, $fs-breakpoint) {
+//                 $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+//             }
+//             @media screen and (min-width: $fs-breakpoint) {
+//                 font-size: $fs-font-size;
+//             }
+//         }
+//     }
+// }
