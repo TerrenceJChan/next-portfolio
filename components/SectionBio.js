@@ -3,7 +3,7 @@ import utilStyles from '../styles/utils.module.scss';
 
 export default function SectionBio() {
     return (
-        <div className={utilStyles.fullHeight}>
+        <div>
             <section>
                 <h2 className={`${styles.title} ${utilStyles.centerTitle}`}>Bio</h2>
                 <div className={utilStyles.col2Flex}>

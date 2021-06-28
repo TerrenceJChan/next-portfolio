@@ -1,0 +1,16 @@
+@use '../styles/colors.scss' as color;
+
+@use './Font.module.scss';
+
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: color.$highlight-sub;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+}

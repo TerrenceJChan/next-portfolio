@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import SectionMain from '../components/SectionMain';
 import SectionBio from '../components/SectionBio';
+import SectionProjects from '../components/SectionProjects';
 import Background from '../components/Background';
 import Footer from '../components/Footer';
 
@@ -17,7 +18,8 @@ export default function Home() {
             <main>
                 <SectionMain />
                 <SectionBio />
-                {/* <Footer /> */}
+                <SectionProjects />
+                <Footer />
             </main>
         </div>
     );
