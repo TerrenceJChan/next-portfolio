@@ -14,7 +14,7 @@ let projectMap = new Map([
             name: 'Next Portfolio',
             descriptionShort: 'This site! Created using Next.js and Sass.',
             stacks: 'Next.js, Sass',
-            github: 'https://github.com/TerrenceJChan/discord-rpg-game',
+            github: 'https://github.com/TerrenceJChan/next-portfolio',
         },
     ],
 ]);

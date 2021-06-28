@@ -23,7 +23,7 @@ export default class SectionBio extends Component {
     render() {
         const { photoIndex, isOpen } = this.state;
         return (
-            <div>
+            <div id='bio'>
                 <section>
                     <h2 className={`${styles.title} ${utilStyles.centerTitle}`}>Bio</h2>
                     <div className={utilStyles.col2Flex}>
@@ -68,10 +68,10 @@ export default class SectionBio extends Component {
                                 <p><span className={utilStyles.highlight}>Sun Life Financial</span> April 2019 - Present</p>
                                 <span className={utilStyles.highlight}>Digital Web Publisher</span>
                                 <ul>
-                                    <li>Maintains, updates, and create new Sun Life webpages</li>
+                                    <li>Maintains, updates, and creates new Sun Life webpages</li>
                                     <li>Publishing content with HTML and CSS</li>
                                     <li>Extensive use of Adobe AEM (CMS) software</li>
-                                    <li>Communcates with business clients to ensure prompt and accurate delivery</li>
+                                    <li>Communicates with business clients to ensure prompt and accurate delivery</li>
                                 </ul>
                             </div>
                             <hr />
@@ -79,9 +79,9 @@ export default class SectionBio extends Component {
                                 <p><span className={utilStyles.highlight}>Costco Wholesale Canada</span> May 2018 - Aug 2018</p>
                                 <span className={utilStyles.highlight}>Inventory Control Specialist</span>
                                 <ul>
-                                    <li>Maintained over-the-counter pharmaceutical stocks</li>
-                                    <li>Monitored supply to each Costco Canada warehouse</li>
-                                    <li>Submitted orders and created reports using IBM&apos;s AS400</li>
+                                    <li>Maintains over-the-counter pharmaceutical stocks</li>
+                                    <li>Monitors supply to each Costco Canada warehouse</li>
+                                    <li>Submit orders and created reports using IBM&apos;s AS400</li>
                                 </ul>
                             </div>
                         </div>

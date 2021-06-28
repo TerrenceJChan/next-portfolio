@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.scss';
 
 export default function SectionProjects() {
     return (
-        <div>
+        <div id='projects'>
             <section>
                 <h2 className={`${styles.title} ${utilStyles.centerTitle}`}>Projects</h2>
                 <div className={styles.grid}>
