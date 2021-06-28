@@ -28,7 +28,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
-  background-color: color.$black-1;
   color: color.$white-2;
 }
 
@@ -87,7 +86,7 @@ canvas {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: color.$black-1;
+  background-color: color.$black-1 !important;
   opacity: 40%;
   z-index: -1;
 }
