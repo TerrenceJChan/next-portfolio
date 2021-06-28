@@ -69,7 +69,7 @@ export default class SectionBio extends Component {
                                 <span className={utilStyles.highlight}>Digital Web Publisher</span>
                                 <ul>
                                     <li>Maintains, updates, and creates new Sun Life webpages</li>
-                                    <li>Publishing content with HTML and CSS</li>
+                                    <li>Publish web content with HTML and CSS</li>
                                     <li>Extensive use of Adobe AEM (CMS) software</li>
                                     <li>Communicates with business clients to ensure prompt and accurate delivery</li>
                                 </ul>
@@ -79,9 +79,9 @@ export default class SectionBio extends Component {
                                 <p><span className={utilStyles.highlight}>Costco Wholesale Canada</span> May 2018 - Aug 2018</p>
                                 <span className={utilStyles.highlight}>Inventory Control Specialist</span>
                                 <ul>
-                                    <li>Maintains over-the-counter pharmaceutical stocks</li>
-                                    <li>Monitors supply to each Costco Canada warehouse</li>
-                                    <li>Submit orders and created reports using IBM&apos;s AS400</li>
+                                    <li>Maintaining over-the-counter pharmaceutical stocks</li>
+                                    <li>Monitoring supply to each Costco Canada warehouse</li>
+                                    <li>Submitting orders and created reports using IBM&apos;s AS400</li>
                                 </ul>
                             </div>
                         </div>
