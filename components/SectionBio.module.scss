@@ -1,4 +1,5 @@
 @use '../styles/colors.scss' as color;
+@use '../styles/transitions.scss' as transition;
 
 @use './Font.module.scss';
 
@@ -6,4 +7,15 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: color.$highlight-sub;
+}
+
+.lightbox {
+    color: color.$highlight-sub;
+    text-decoration: underline;
+    transition: transition.$standard;
+}
+
+.lightbox:hover {
+    color: color.$highlight-main;
+    cursor: pointer;
 }
