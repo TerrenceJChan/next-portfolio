@@ -69,7 +69,7 @@ export default class SectionBio extends Component {
                                 <span className={utilStyles.highlight}>Digital Web Publisher</span>
                                 <ul>
                                     <li>Maintains, updates, and creates new Sun Life webpages</li>
-                                    <li>Publish web content with HTML and CSS</li>
+                                    <li>Publishes web content with HTML and CSS</li>
                                     <li>Extensive use of Adobe AEM (CMS) software</li>
                                     <li>Communicates with business clients to ensure prompt and accurate delivery</li>
                                 </ul>
