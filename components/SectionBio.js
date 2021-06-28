@@ -31,7 +31,7 @@ export default class SectionBio extends Component {
                             <h3 className={styles.subtitle}>Education</h3>
                             <div>
                                 <p><span className={utilStyles.highlight}>University of Toronto School of Continuing Studies</span> Dec 2020 - May 2021</p>
-                                <span className={utilStyles.highlight}>Coding Boot Camp</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 0, isOpen: true })}>View the Degree</span>
+                                <span className={utilStyles.highlight}>Coding Boot Camp</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 0, isOpen: true })}>View the Certificate</span>
                                 <ul>
                                     <li>Front-End</li>
                                     <ul>
