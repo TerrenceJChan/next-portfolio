@@ -79,9 +79,9 @@ export default class SectionBio extends Component {
                                 <p><span className={utilStyles.highlight}>Costco Wholesale Canada</span> May 2018 - Aug 2018</p>
                                 <span className={utilStyles.highlight}>Inventory Control Specialist</span>
                                 <ul>
-                                    <li>Maintaining over-the-counter pharmaceutical stocks</li>
-                                    <li>Monitoring supply to each Costco Canada warehouse</li>
-                                    <li>Submitting orders and created reports using IBM&apos;s AS400</li>
+                                    <li>Maintained over-the-counter pharmaceutical stocks</li>
+                                    <li>Monitored supply to each Costco Canada warehouse</li>
+                                    <li>Submitted orders and created reports using IBM&apos;s AS400</li>
                                 </ul>
                             </div>
                         </div>
