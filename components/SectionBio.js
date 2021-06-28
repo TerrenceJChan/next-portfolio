@@ -31,7 +31,7 @@ export default class SectionBio extends Component {
                             <h3 className={styles.subtitle}>Education</h3>
                             <div>
                                 <p><span className={utilStyles.highlight}>University of Toronto School of Continuing Studies</span> Dec 2020 - May 2021</p>
-                                <span className={utilStyles.highlight}>Coding Boot Camp</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 0, isOpen: true })}>View the Certificate</span>
+                                <span className={utilStyles.highlight}>Coding Boot Camp</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 0, isOpen: true })}>View the Degree</span>
                                 <ul>
                                     <li>Front-End</li>
                                     <ul>
@@ -52,7 +52,7 @@ export default class SectionBio extends Component {
                             <hr />
                             <div>
                                 <p><span className={utilStyles.highlight}>University of Waterloo</span> September 2015 - December 2020</p>
-                                <span className={utilStyles.highlight}>Bachelor of Arts with Distinction</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 1, isOpen: true })}>View the Certificate</span>
+                                <span className={utilStyles.highlight}>Bachelor of Arts with Distinction</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 1, isOpen: true })}>View the Degree</span>
                                 <ul>
                                     <li>Honours Arts and Business</li>
                                     <li>Honours Political Science</li>
@@ -65,7 +65,7 @@ export default class SectionBio extends Component {
                         <div className={utilStyles.flexGap}>
                             <h3 className={styles.subtitle}>Employment</h3>
                             <div>
-                                <p><span className={utilStyles.highlight}>Sun Life Financial</span> April 2019 - Today</p>
+                                <p><span className={utilStyles.highlight}>Sun Life Financial</span> April 2019 - Present</p>
                                 <span className={utilStyles.highlight}>Digital Web Publisher</span>
                                 <ul>
                                     <li>Maintains, updates, and create new Sun Life webpages</li>
