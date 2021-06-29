@@ -1,5 +1,8 @@
 @use './colors.scss' as color;
 
+@use '../components/Font.module.scss';
+
+
 .centerTitle {
     text-align: center;
 }
@@ -23,8 +26,7 @@
 }
 
 .fullHeight {
-    height: 100vh;
-    z-index: -2;
+    height: 100vmin;
 }
 
 .col2Flex {
@@ -49,4 +51,10 @@
 
 .boxShadows {
     box-shadow: 0 4px 8px 0 color.$highlight-sub, 0 6px 20px 0 color.$highlight-sub;
+}
+
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: color.$highlight-main;
 }

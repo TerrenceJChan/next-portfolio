@@ -14,7 +14,6 @@
 .footerBox {
     height: 50px;
     bottom: 0;
-    margin-top: 50px;
     border-top: 2px solid color.$highlight-sub;
     color: color.$highlight-sub;
     background-color: white;
@@ -26,6 +25,7 @@
     align-items: center;
     height: inherit;
 }
+
 .footerFlex span a {
     transition: 0.2s ease, padding 0.8s linear;
 }

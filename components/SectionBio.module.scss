@@ -1,14 +1,6 @@
 @use '../styles/colors.scss' as color;
 @use '../styles/transitions.scss' as transition;
 
-@use './Font.module.scss';
-
-.subtitle {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: color.$highlight-main;
-}
-
 .lightbox {
     color: color.$highlight-sub;
     text-decoration: underline;

@@ -25,10 +25,10 @@ export default class SectionBio extends Component {
         return (
             <div id='bio'>
                 <section>
-                    <h2 className={`${styles.title} ${utilStyles.centerTitle}`}>Bio</h2>
+                    <h2 className={`${utilStyles.title} ${utilStyles.centerTitle}`}>Bio</h2>
                     <div className={utilStyles.col2Flex}>
                         <div className={utilStyles.flexGap}>
-                            <h3 className={styles.subtitle}>Education</h3>
+                            <h3 className={utilStyles.subtitle}>Education</h3>
                             <div>
                                 <p><span className={utilStyles.highlight}>University of Toronto School of Continuing Studies</span> Dec 2020 - May 2021</p>
                                 <span className={utilStyles.highlight}>Coding Boot Camp</span> <span className={styles.lightbox} onClick={() => this.setState({ photoIndex: 0, isOpen: true })}>View the Certificate</span>
@@ -63,7 +63,7 @@ export default class SectionBio extends Component {
                             </div>
                         </div>
                         <div className={utilStyles.flexGap}>
-                            <h3 className={styles.subtitle}>Employment</h3>
+                            <h3 className={utilStyles.subtitle}>Employment</h3>
                             <div>
                                 <p><span className={utilStyles.highlight}>Sun Life Financial</span> April 2019 - Present</p>
                                 <span className={utilStyles.highlight}>Digital Web Publisher</span>

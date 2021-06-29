@@ -59,6 +59,7 @@ main {
 }
 
 section {
+  margin-bottom: 10vw;
   // scroll-snap-align: center;
   // align-items: center;
   // height: 100vh;
@@ -73,17 +74,31 @@ h3 {
   z-index: 1;
 }
 
-h1,
-h2,
-h3 {
-  text-shadow: 5px 5px color.$highlight-sub;
+h2 {
+  margin-top: 0px;
 }
 
 @media screen and (max-width: breakpoint.$phone) {
   h1,
   h2,
   h3 {
+    text-shadow: 1px 1px color.$highlight-sub;
+  }
+}
+
+@media screen and (min-width: breakpoint.$phone) {
+  h1,
+  h2,
+  h3 {
     text-shadow: 2px 2px color.$highlight-sub;
+  }
+}
+
+@media screen and (min-width: breakpoint.$desktop) {
+  h1,
+  h2,
+  h3 {
+    text-shadow: 5px 5px color.$highlight-sub;
   }
 }
 
@@ -128,6 +143,6 @@ canvas {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  opacity: 60%;
+  opacity: 30%;
   z-index: -1;
 }
