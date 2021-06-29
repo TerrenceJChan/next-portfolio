@@ -16,7 +16,7 @@ export default function SectionProjects() {
                         <ProjectBox name='discord-rpg-game' />
                     </div>
                     <h3 className={utilStyles.subtitle}>Bootcamp</h3>
-                    <p>See my progression through UofT's Coding Bootcamp.</p>
+                    <p>See my progression through UofT&apos;s Coding Bootcamp.</p>
                     <div className={styles.grid}>
                         <ProjectBox name='project3' />
                         <ProjectBox name='react-portfolio' />
