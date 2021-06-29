@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Head>
                 <title>Terrence Chan</title>
                 <meta name="description" content="Welcome to my page and portfolio! I promise to be on best behaviour~" />
@@ -24,6 +24,6 @@ export default function Home() {
                     <Footer />
                 </main>
             </body>
-        </div>
+        </>
     );
 }

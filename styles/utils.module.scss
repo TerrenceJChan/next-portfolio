@@ -44,5 +44,9 @@
 }
 
 .highlight {
-    color: color.$white-1;
+    color: color.$highlight-main;
+}
+
+.boxShadows {
+    box-shadow: 0 4px 8px 0 color.$highlight-sub, 0 6px 20px 0 color.$highlight-sub;
 }
