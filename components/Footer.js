@@ -16,7 +16,7 @@ export default function Footer() {
                     <span className={utilStyles.noMargin}>
                         © Terrence J Chan 2021
                     </span>
-                    <span className={utilStyles.noMargin}>
+                    <span className={`${utilStyles.noMargin} ${styles.alignRight}`}>
                         <a href="https://github.com/TerrenceJChan" rel="nofollow">GitHub&nbsp;<FontAwesomeIcon icon={['fab', 'github']} /></a> / <a href="https://www.linkedin.com/in/terrencejchan/" rel="nofollow">LinkedIn&nbsp;<FontAwesomeIcon icon={['fab', 'linkedin']} /></a> / <a href="mailto: contact@terrencejchan.com">Email&nbsp;<FontAwesomeIcon icon={faEnvelope} /></a>
                     </span>
                     {/* <span>
