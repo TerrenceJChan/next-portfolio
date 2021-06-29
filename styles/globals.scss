@@ -118,7 +118,9 @@ ul li::before {
 }
 
 hr {
-  color: color.$highlight-sub;
+  background-color: color.$highlight-sub;
+  height: 1px;
+  border: none;
   opacity: 20%;
 }
 

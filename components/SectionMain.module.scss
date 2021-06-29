@@ -13,7 +13,12 @@
 
 .profileContainer {
     width: 25vw;
-    overflow:visible;
+    background: linear-gradient(90deg, color.$highlight-main 0%, color.$highlight-sub 100%);
+    padding: 2px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
 }
 
 .profile {
@@ -21,8 +26,7 @@
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
-    box-shadow: 5px 5px color.$highlight-sub;
-    overflow:visible;
+    // box-shadow: 5px 5px color.$highlight-sub;
 }
 
 .profileTitle {
