@@ -13,7 +13,7 @@ export default function SectionMain() {
                     {/* <span className={`${styles.subtitle} ${styles.mirror}`}>Back-End</span> */}
                 </div>
                 <div>
-                    <div className={utilStyles.quarterWidth}>
+                    <div className={styles.profileContainer}>
                         <Image
                             src='/images/terrence-800x800-2.png'
                             className={styles.profile}
