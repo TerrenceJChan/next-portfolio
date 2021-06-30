@@ -9,7 +9,7 @@ export default function ProjectBox(project) {
                 <p><span className={styles.highlight}>{projectMap.get(project.name).name}</span></p>
                 <hr />
                 <p>{projectMap.get(project.name).descriptionShort}</p>
-                <p>Stacks used: <span className={styles.highlight}>{projectMap.get(project.name).stacks}</span></p>
+                <p>Stack used: <span className={styles.highlight}>{projectMap.get(project.name).stacks}</span></p>
             </div>
         </a>
     );
