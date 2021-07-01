@@ -48,6 +48,10 @@ body {
   color: color.$white-2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   //   // height: 100vh;
   //   // overflow-y: scroll;
@@ -60,6 +64,7 @@ main {
 
 section {
   margin-bottom: 2vh;
+  padding-top: 55px;
   // scroll-snap-align: center;
   // align-items: center;
   // height: 100vh;
@@ -117,6 +122,11 @@ p {
 a {
   color: inherit;
   text-decoration: none;
+  transition: transition.$standard;
+}
+
+a:hover {
+  color: color.$highlight-main;
 }
 
 ul {

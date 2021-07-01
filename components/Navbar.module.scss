@@ -1,0 +1,24 @@
+@use '../styles/colors.scss' as color;
+
+.navWrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 55px;
+    width: 100%;
+    background-color: color.$white-1;
+    color: color.$white-2;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    z-index: 1;
+}
+
+.largeDisplay ol {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.largeDisplay ol li {
+    display: inline;
+    margin-left: 20px;
+}
