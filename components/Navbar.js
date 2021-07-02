@@ -12,10 +12,10 @@ function Links() {
             <li><a href="#bio">Bio</a></li>
             <li><a href="#projects">Projects</a></li>
             <li className={utilStyles.bold}><a href="mailto: contact@terrencejchan.com">Email</a></li>
-            <li className={utilStyles.bold}><a href="https://github.com/TerrenceJChan" target="_blank">GitHub</a></li>
-            <li className={utilStyles.bold}><a href="/documents/terrence-chan-resume.pdf" target="_blank">Resume</a></li>
+            <li className={utilStyles.bold}><a href="https://github.com/TerrenceJChan" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li className={utilStyles.bold}><a href="/documents/terrence-chan-resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
         </ol>
-    )
+    );
 }
 
 // function displayOverlay() {
