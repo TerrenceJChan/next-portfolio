@@ -12,4 +12,5 @@ Truthfully, this was my first attempt at using **Next.js** and **Sass**! I had a
 
 Packages prominently featured are:
 
-- npm `react-particle-js` for the pleasantly animated background.
+- [react-particle-js](https://www.npmjs.com/package/react-particles-js) npm for the pleasantly animated background.
+- [react-hamburger-menu](https://www.npmjs.com/package/react-hamburger-menu) npm for the nice hamburger button and animation.

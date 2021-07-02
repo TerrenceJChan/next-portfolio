@@ -2,6 +2,9 @@
 
 @use '../components/Font.module.scss';
 
+.bold {
+    font-weight: bold;
+}
 
 .centerTitle {
     text-align: center;
