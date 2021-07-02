@@ -2,6 +2,9 @@
 
 @use '../components/Font.module.scss';
 
+.bold {
+    font-weight: bold;
+}
 
 .centerTitle {
     text-align: center;
@@ -48,8 +51,6 @@
 .highlight {
     color: color.$highlight-main;
 }
-
-
 
 .subtitle {
     margin-top: 15px;

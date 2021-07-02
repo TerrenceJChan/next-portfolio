@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Background from '../components/Background';
+import Navbar from '../components/Navbar';
 import SectionMain from '../components/SectionMain';
 import SectionBio from '../components/SectionBio';
 import SectionProjects from '../components/SectionProjects';
@@ -17,12 +18,13 @@ export default function Home() {
 
             <body>
                 <Background />
+                <Navbar/>
                 <main>
                     <SectionMain />
                     <SectionBio />
                     <SectionProjects />
-                    <Footer />
                 </main>
+                <Footer />
             </body>
         </>
     );

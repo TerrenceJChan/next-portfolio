@@ -48,6 +48,10 @@ body {
   color: color.$white-2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   //   // height: 100vh;
   //   // overflow-y: scroll;
@@ -60,6 +64,7 @@ main {
 
 section {
   margin-bottom: 2vh;
+  padding-top: 55px;
   // scroll-snap-align: center;
   // align-items: center;
   // height: 100vh;
@@ -71,7 +76,6 @@ h1,
 h2,
 h3 {
   font-family: "Exo";
-  z-index: 1;
 }
 
 h2 {
@@ -111,12 +115,16 @@ a {
 
 p {
   color: color.$white-2;
-  z-index: 1;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: transition.$standard;
+}
+
+a:hover {
+  color: color.$highlight-main;
 }
 
 ul {
