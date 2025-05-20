@@ -118,7 +118,7 @@ const HomePage = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 1, delay: 0.75, bounce: 0 }}
                 >
-                  I'm around on these platforms:
+                  Find me online on these platforms:
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, x: 50 }}
