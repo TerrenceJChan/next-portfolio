@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "organizeImports": {
+    "groups": [
+      {
+        "pattern": "@/assets/images",
+        "priority": 1
+      }
+    ]
+  }
+}
