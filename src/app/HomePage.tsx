@@ -151,7 +151,7 @@ const HomePage = () => {
                 </motion.div>
               </div>
               <div className="flex flex-col gap-2">
-                <motion.p
+                <motion.div
                   initial={{ opacity: 0, x: 50 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -169,7 +169,7 @@ const HomePage = () => {
                       </span>
                     </Link>
                   </div>
-                </motion.p>
+                </motion.div>
               </div>
             </div>
           </div>
