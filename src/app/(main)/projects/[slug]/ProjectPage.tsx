@@ -1,6 +1,7 @@
 "use client";
 
-import Image from "next/image";
+import Link from "next/link";
+import { unstable_ViewTransition as ViewTransition } from "react";
 import ReactMarkdown from "react-markdown";
 
 type ProjectPageProps = {
@@ -8,27 +9,27 @@ type ProjectPageProps = {
   frontmatter: {
     title: string;
     description: string;
-    image?: string;
-    imageAlt?: string;
+    image: string;
+    imageAlt: string;
     slug: string;
   };
 };
 
 const ProjectPage = ({ content, frontmatter }: ProjectPageProps) => {
-  console.log(frontmatter.image);
   return (
-    <div>
-      <h1>{frontmatter.title}</h1>
+    <div className="flex flex-col gap-8">
+      <h1 className="text-4xl font-bold">{frontmatter.title}</h1>
       <p>{frontmatter.description}</p>
-      {frontmatter.image && (
-        <Image
+      <ViewTransition name={frontmatter.slug}>
+        <img
           src={frontmatter.image}
-          alt={frontmatter.imageAlt || ""}
-          width={1000}
-          height={600}
+          alt={frontmatter.imageAlt}
+          className="object-contain"
         />
-      )}
+      </ViewTransition>
+      <hr />
       <ReactMarkdown>{content}</ReactMarkdown>
+      <Link href="/projects">← Back to projects</Link>
     </div>
   );
 };

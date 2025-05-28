@@ -6,6 +6,8 @@ export type ProjectFrontmatter = {
   title: string;
   description: string;
   slug: string;
+  image: string;
+  imageAlt: string;
   // Add any other frontmatter fields you need
 };
 
