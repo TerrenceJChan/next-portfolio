@@ -21,6 +21,7 @@ const ProjectPage = ({ content, frontmatter }: ProjectPageProps) => {
       <h1 className="text-4xl font-bold">{frontmatter.title}</h1>
       <p>{frontmatter.description}</p>
       <ViewTransition name={frontmatter.slug}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={frontmatter.image}
           alt={frontmatter.imageAlt}
