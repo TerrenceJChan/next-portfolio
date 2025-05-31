@@ -8,7 +8,7 @@ interface HomePageSectionProps {
 
 const HomePageSection = ({ children, id }: HomePageSectionProps) => {
   return (
-    <section className="relative p-16" id={id}>
+    <section className="relative p-8 lg:p-16" id={id}>
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
