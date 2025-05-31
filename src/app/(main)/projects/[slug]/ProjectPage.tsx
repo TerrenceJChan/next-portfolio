@@ -1,17 +1,18 @@
 "use client";
 
+import { MDXRemote, MDXRemoteProps } from "next-mdx-remote";
 import Link from "next/link";
 import { unstable_ViewTransition as ViewTransition } from "react";
-import ReactMarkdown from "react-markdown";
 
 type ProjectPageProps = {
-  content: string;
+  content: MDXRemoteProps;
   frontmatter: {
     title: string;
     description: string;
     image: string;
     imageAlt: string;
     slug: string;
+    link?: string;
   };
 };
 
@@ -28,9 +29,26 @@ const ProjectPage = ({ content, frontmatter }: ProjectPageProps) => {
           className="object-contain"
         />
       </ViewTransition>
-      <hr />
-      <ReactMarkdown>{content}</ReactMarkdown>
-      <Link href="/projects">← Back to projects</Link>
+      <hr className="opacity-25" />
+      <MDXRemote components={{ Link }} {...content} />
+
+      {frontmatter.link && (
+        <Link
+          href={frontmatter.link}
+          aria-label={`Open ${frontmatter.title} in a new tab`}
+          target="_blank"
+          className="underline decoration-dotted transition-all hover:text-green-700"
+        >
+          Visit {frontmatter.title} →
+        </Link>
+      )}
+
+      <Link
+        href="/projects"
+        className="underline decoration-dotted transition-all hover:text-green-700"
+      >
+        ← Back to projects
+      </Link>
     </div>
   );
 };

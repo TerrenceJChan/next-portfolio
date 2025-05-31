@@ -1,5 +1,7 @@
 import { getProjectBySlug } from "@/helpers/getAllProjects";
 import { Metadata } from "next";
+import { MDXRemoteProps } from "next-mdx-remote";
+import { serialize } from "next-mdx-remote/serialize";
 import { notFound } from "next/navigation";
 import ProjectPage from "./ProjectPage";
 
@@ -33,8 +35,13 @@ const Project = async (props: Props) => {
     notFound();
   }
 
+  const mdxSource = await serialize(project.content);
+
   return (
-    <ProjectPage content={project.content} frontmatter={project.frontmatter} />
+    <ProjectPage
+      content={mdxSource as MDXRemoteProps}
+      frontmatter={project.frontmatter}
+    />
   );
 };
 
